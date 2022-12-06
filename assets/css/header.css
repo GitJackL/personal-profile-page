@@ -1,0 +1,40 @@
+.header{
+      height: 165px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background-image: url(../images/embossed-diamond.webp);
+      border-bottom-width: 8px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(117, 0, 128);
+}
+
+.left-section {
+          color: rgb(161, 155, 246);
+          font-family:'pacifico';
+          font-size: 40px;
+          margin-right: 50px;
+          background-color: rgba(0, 0, 0, 0.799);
+          border-top-left-radius: 120px;
+          border-top-right-radius: 120px;
+          border-bottom-left-radius: 120px;
+          border-bottom-right-radius: 120px;
+          padding: 5px;
+          margin-left: 120px;
+          margin-top: 3px;
+          padding-left: 10px;
+          padding-right:10px ;
+}
+
+.right-section {
+  margin-top: 45px;
+}
+
+  .icons {
+    margin-left: auto;
+  }

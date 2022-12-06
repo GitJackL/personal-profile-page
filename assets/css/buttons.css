@@ -1,0 +1,24 @@
+.header-buttons{
+          background-color:rgb(161, 155, 246,0.7);
+          border-color: rgb(0, 0, 0);
+          border-style: solid;
+          border-width: 1px;
+          color: rgb(35,35,35);
+          border-radius: 2px;
+          cursor: pointer;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-right: 35px;
+          margin-top: 18px;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 20px;
+          border-radius: 9px;
+}
+
+#about-me {
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&family=Roboto+Slab:wght@600;700&display=swap');
+  
