@@ -9,6 +9,10 @@
   "one two two"
   "one two two"
   "three four five";
+  font-family:'pacifico';
+  font-size: 18px;
+  font-weight: 500;
+  color:rgb(0, 0, 0);
 }
 
 
@@ -47,6 +51,7 @@
   margin: 5px;
   display: grid;
   align-content: end;
+  
  }
 
 
@@ -71,3 +76,18 @@ justify-content: center;
 
 
 
+span {
+  background-color: rgba(255, 255, 255, 0.728)
+}
+
+@media screen and (max-width: 800px) {
+  #main-grid {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      ;
+}}
